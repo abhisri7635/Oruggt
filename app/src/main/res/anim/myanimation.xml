@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set>
+<alpha
+    xmlns:andrioid="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:andriod="http://schemas.android.com/tools"
+    andriod:duration="5000"
+    andrioid:fromAlpha="0.0"
+    andriod:toAlpha="1.0"
+    />
+</set>

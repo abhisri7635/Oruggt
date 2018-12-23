@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+    tools:context="cse.fet.gkv.oruggt.EditContact">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/contact1"
+        android:background="#80CBC4"
+        android:fontFamily="serif"
+        android:text="CONTACT #1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contact1"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView18"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="0dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="CONTACT NAME"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/contactnb1"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/contact1"
+        android:layout_below="@+id/contact1"
+        android:layout_marginTop="0dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="textPhonetic"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView19"
+        android:layout_alignParentEnd="true"
+        android:drawableRight="@drawable/ic_action_phone"
+        android:text="select\ncontact" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/contact1"
+        android:layout_below="@+id/contactnb1"
+        android:layout_marginTop="7dp"
+        android:background="#80CBC4"
+        android:fontFamily="serif"
+        android:text="CONTACT #2"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contact2"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView19"
+        android:layout_marginStart="15dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="CONTACT NAME"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/contactnb2"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/contact2"
+        android:layout_below="@+id/contact2"
+        android:editable="false"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="textPhonetic"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="12dp"
+        android:drawableRight="@drawable/ic_action_phone"
+        android:text="select\ncontact" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/contact2"
+        android:layout_below="@+id/contactnb2"
+        android:layout_marginTop="7dp"
+        android:background="#80CBC4"
+        android:fontFamily="serif"
+        android:text="CONTACT #3"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contact3"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView20"
+        android:layout_marginStart="15dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="CONTACT NAME"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/contactnb3"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/contact3"
+        android:layout_below="@+id/contact3"
+        android:editable="false"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="textPhonetic"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contactnb3"
+        android:layout_alignStart="@+id/button11"
+        android:drawableRight="@drawable/ic_action_phone"
+        android:text="select\ncontact" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/contact3"
+        android:layout_below="@+id/contactnb3"
+        android:layout_marginTop="7dp"
+        android:background="#80CBC4"
+        android:fontFamily="serif"
+        android:text="CONTACT #4"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contact4"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView21"
+        android:layout_marginStart="15dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="CONTACT NAME"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/contactnb4"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/contact4"
+        android:layout_below="@+id/contact4"
+        android:editable="false"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="textPhonetic"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView21"
+        android:layout_marginTop="12dp"
+        android:drawableRight="@drawable/ic_action_phone"
+        android:text="select\ncontact" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/contact4"
+        android:layout_below="@+id/contactnb4"
+        android:layout_marginTop="7dp"
+        android:background="#80CBC4"
+        android:fontFamily="serif"
+        android:text="CONTACT #5"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/contact5"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/textView22"
+        android:layout_marginStart="15dp"
+        android:editable="false"
+        android:ems="10"
+        android:hint="CONTACT NAME"
+        android:inputType="textPersonName"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/contactnb5"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/contact5"
+        android:layout_below="@+id/contact5"
+        android:editable="false"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="textPhonetic"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contactnb5"
+        android:layout_alignParentEnd="true"
+        android:drawableRight="@drawable/ic_action_phone"
+        android:text="select\ncontact" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button_style"
+        android:onClick="svgc"
+        android:text="Save Contacts" />
+</RelativeLayout>

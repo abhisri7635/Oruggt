@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Oruggt</string>
+    <string name="flood">If you are caught in a flood, follow these safety measures:\n
+    • Do not walk through moving water. As little as 6 inches (15 centimeters) of moving water can make you fall.\n
+    • If you have to walk in water, wherever possible, walk where the water is not moving. Use a stick to check the firmness of the ground in front of you.\n
+    • Do not drive into flooded areas. If floodwaters rise around your car, abandon the car and move to higher ground if you can do so safely.\n
+    • Do not touch electrical equipment if you are wet or standing in water.\n
+    • Avoid floodwaters; water may be contaminated by oil, gasoline, or raw sewage. Water may also be electrically charged from underground or downed power lines.</string>
+    <string name="earthquake"> If you are caught in an earthquake, follow these safety measures:\n
+    •	Stay calm! If you\'re indoors, stay inside. If you\'re outside, stay outside.\n
+    •	If you\'re indoors, stand against a wall near the center of the building, stand in a doorway, or crawl under heavy furniture (a desk or table). Stay away from windows and outside doors.\n
+    •	If you\'re outdoors, stay in the open away from power lines or anything that might fall. Stay away from buildings (stuff might fall off the building or the building could fall on you).\n
+    •	Don</string>
+    <string name="earthquakee">\'t use matches, candles, or any flame. Broken gas lines and fire don\'t mix.\n
+    •	If you\'re in a car, stop the car and stay inside the car until the earthquake stops.\n
+    •	Don't use elevators (they'll probably get stuck anyway).</string>
+
+    <string name="tsunami">If you are caught in a tsunami, follow these safety measures:\n
+    • When in coastal areas, stay alert for tsunami warnings.\n
+    • Learn details of the local warning systems.\n
+    • Plan an evacuation route that leads to higher ground.\n
+    • Know the warning signs of a tsunami: rapidly rising or falling coastal waters and rumblings of an offshore earthquake\n
+    • Never stay near shore to watch a tsunami come in.</string>
+    <string name="cyclone">If you are caught in a cyclone, follow these safety measures:\n
+    •	Disconnect all electrical appliances. Listen to your battery radio for updates.\n
+    •	Stay inside and shelter {well clear of windows) in the strongest part of the building,
+    i.e. cellar, internal hallway or bathroom. Keep evacuation and emergency kits with you.\n
+    •	If the building starts to break up, protect yourself with mattresses, rugs or blankets under a
+    strong table or bench or hold onto a solid fixture, e.g. a water pipe.\n
+    •	Beware the calm</string>
+    <string name="cyclonee">\'eye\'. If the wind drops, don\'t assume the cyclone is over; violent winds
+    will soon resume from another direction. Wait for the official \'all clear\'.\n
+    •	If driving, stop (handbrake on and in gear) - but well away from the sea and clear of trees,
+    power lines and streams. Stay in the vehicle.</string>
+
+    <string name="draught">If you are affected by draught , follow these safety measures:\n
+
+    1.	Save water. Repair all the faucets that drip, and fix any leaks in the pipes in the household.\n
+    2.	Try to collect as much rainwater as you.\n
+    3.	Take shorter baths and showers.\n
+    4.	Use dishwashers and washing machines for fully loads only.\n
+    5.	Do not flush tissues. Instead, throw them in the trash.\n
+    6.	Do not waste water while waiting for hot water. Instead, collect and save it.\n
+    7.	To prepare your lawn for a drought, plant flowers and shrubs with similar watering needs together.</string>
+
+    <string name="landslide">If you are caught in a landslide, follow these safety measures:\n
+    •	Stay alert and awake. Be aware that intense, short bursts of rain may be particularly dangerous, especially after longer periods of heavy rainfall and damp weather.\n
+    •	Remember that driving during an intense storm can be hazardous. If you remain at home, move to a second story if possible.\n
+    •	Listen for any unusual sounds that might indicate moving debris, such as trees cracking or boulders knocking together. A trickle of flowing or falling mud or debris may precede larger landslides. Moving debris can flow quickly and sometimes without warning.\n
+    •	If you are near a stream or channel, be alert for any sudden increase or decrease in water flow and for a change from clear to muddy water.\n
+    •	Be especially alert when driving. Bridges may be washed out, and culverts overtopped. Do not cross flooding streams!! Turn Around, Don</string>
+    <string name="landslidee">\'t Drown!.\n
+    •	 Embankments along roadsides are particularly susceptible to landslides.\n
+    •	 Watch the road for collapsed pavement, mud, fallen rocks, and other indications of possible debris flows.\n
+    •	Be aware that strong shaking from earthquakes can induce or intensify the effects of landslides.</string>
+    <string name="logpg">Welcome to Oruggt\nIndia\'s 1st all-in-one safety app\nPlease Sign Up to continue</string>
+    <string name="cred">1037930970544-dbp4q234cailuai5mbc7risqidncqgug.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="blgp">
+        <item>SELECT BLOOD GROUP</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="filtyp">
+        <item>Image</item>
+        <item>Video</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

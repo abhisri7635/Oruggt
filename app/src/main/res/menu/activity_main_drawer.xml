@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/disaster"
+            android:icon="@drawable/disaster"
+            android:title="Disaster" />
+        <item
+            android:id="@+id/accident"
+            android:icon="@drawable/accb"
+            android:title="Accident" />
+        <item
+            android:id="@+id/crime"
+            android:icon="@drawable/crime"
+            android:title="Crime" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/info"
+                android:title="info" />
+            <item
+                android:id="@+id/sgnout"
+                android:icon="@drawable/signout2"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu>

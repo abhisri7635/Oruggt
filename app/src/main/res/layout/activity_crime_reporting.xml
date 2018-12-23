@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+    tools:context="cse.fet.gkv.oruggt.CrimeReporting">
+
+    <TextView
+        android:id="@+id/pts"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/ic_action_points"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@+id/pts"
+        android:background="#80CBC4"
+        android:fontFamily="serif"
+        android:text="POINTS:"
+        android:textAlignment="center"
+        android:textColor="#004D40"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/button_style"
+        android:onClick="newf"
+        android:text="ADD A NEW FILE" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/crime2"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/fileima"
+            android:drawableLeft="@drawable/ic_action_file"
+            android:fontFamily="serif"
+            android:text="ADD A NEW FILE"
+            android:textAlignment="center"
+            android:textColor="#FF4500"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fileima"
+            android:fontFamily="serif"
+            android:text="SELECT FILE TYPE:"
+            android:textColor="#FF4500"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/filtyp" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/opencamera"
+            android:gravity="center_vertical"
+            android:onClick="imgcam" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:gravity="center_vertical"
+            android:text="OPEN CAMERA"
+            android:textColor="#FFFF00"
+            android:textStyle="bold"
+            tools:text="Open Camera" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="110dp"
+            android:background="@drawable/gallery"
+            android:onClick="imggal" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="116dp"
+            android:text="Import From Gallery"
+            android:textColor="#FFFF00"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
